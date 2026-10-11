@@ -1,0 +1,16 @@
+[project]
+name = "slack-rewind"
+version = "0.1.0"
+description = "Local-first return-from-leave catch-up tool for Slack with privacy layer."
+authors = [
+    {name = "Nojus Raščius"}
+]
+license = "Apache-2.0"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
